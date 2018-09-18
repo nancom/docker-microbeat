@@ -1,5 +1,13 @@
 # docker-microbeat
 spring boot ready and file beat
 
-# Docker images
-nancom/microjava-beat
+Prerequisite 
+Docker images : nancom/microjava-beat
+
+
+Step 
+1. pull docker images
+2. Create spring boot web .jar file specific port 8892
+3. modify filebeat.yml for send log to ELK stack
+4. modify start.sh for run your application 
+5. enjoy !
